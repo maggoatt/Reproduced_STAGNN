@@ -1,0 +1,38 @@
+# Core dependencies for STNAGNN-fMRI
+numpy==1.26.4
+torch==2.1.0
+torchaudio==2.1.0
+torchvision==0.16.0
+torch_geometric
+torch-scatter
+torch-sparse
+torch-geometric-temporal==0.54.0
+
+# Scientific computing
+scipy
+scikit-learn
+pandas==2.2.3
+statsmodels==0.14.4
+
+# Neuroimaging
+nibabel==5.2.0
+nilearn==0.10.2
+
+# Visualization
+matplotlib==3.8.1
+seaborn==0.13.2
+
+# Data handling
+h5py==3.10.0
+deepdish==0.3.7
+tables==3.9.1
+
+# Utilities
+tqdm
+networkx
+PyYAML
+joblib
+
+# Logging/monitoring
+tensorboard==2.17.0
+tensorboardX==2.6.2.2
